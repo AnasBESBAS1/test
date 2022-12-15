@@ -4,6 +4,7 @@ import 'package:pic_network/Host.dart';
 import 'package:pic_network/Scanner.dart';
 import 'GuestPage.dart';
 import 'HostHomepage.dart';
+import 'HostSecondryPage.dart';
 import 'HttpServer.dart';
 import 'ListWidget.dart';
 import 'MainMenu.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
           '/GuestPage' : (context) => GuestPage(),
           '/HostHomepage' : (context) => HostHomepage(),
           '/ListWidget' : (context) => ListWidget(),
+          '/RecordToStreamExample' : (context) => RecordToStreamExample(),
         });
   }
 }

@@ -29,11 +29,14 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flutter_sound: ^9.2.13
   dual_screen: ^1.0.2+2
   lan_scanner: ^3.5.0
   app_settings: ^4.1.8
   wifi_scan: ^0.4.0+1
   connectivity: ^3.0.6
+  permission_handler: ^10.2.0
+  audio_session: ^0.1.11
   flutter:
     sdk: flutter
 
